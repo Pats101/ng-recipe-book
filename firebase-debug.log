@@ -1,0 +1,21 @@
+[debug] [2021-12-12T11:31:31.654Z] ----------------------------------------------------------------------
+[debug] [2021-12-12T11:31:31.657Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ptgan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-12-12T11:31:31.658Z] CLI Version:   9.23.1
+[debug] [2021-12-12T11:31:31.658Z] Platform:      win32
+[debug] [2021-12-12T11:31:31.658Z] Node Version:  v14.17.3
+[debug] [2021-12-12T11:31:31.667Z] Time:          Sun Dec 12 2021 13:31:31 GMT+0200 (South Africa Standard Time)
+[debug] [2021-12-12T11:31:31.668Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-12T11:31:31.677Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-12T11:31:31.678Z] > authorizing via signed-in user (ptganhiwa8@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ptgan\Documents\AngularTutorial\my-shopping
+
