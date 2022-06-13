@@ -8,6 +8,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core.module';
 import { LoggingService } from './logging.service';
+import { RecipesModule } from './recipes/recipes.module';
+import { ShoppingListModule } from './shopping-list/shopping-list.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { LoggingService } from './logging.service';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    RecipesModule,
+    ShoppingListModule,
     SharedModule,
     CoreModule
   ],

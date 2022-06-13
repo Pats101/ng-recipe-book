@@ -9,7 +9,10 @@ import { ShoppingListService } from "./shopping-list.service";
 
 @NgModule({
     declarations: [ShoppingListComponent, ShoppingEditComponent],
-    imports: [FormsModule, RouterModule, ShoppingListRoutingModule, SharedModule],
+    imports: [FormsModule, RouterModule.forChild([
+        { path: 'shopping-list', component: ShoppingListComponent},
+    ]), 
+    ShoppingListRoutingModule, SharedModule],
     providers: [ShoppingListService]
 })
 export class ShoppingListModule {}
